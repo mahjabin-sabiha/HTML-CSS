@@ -1,0 +1,19 @@
+.my-text-style{      /*This is a class selector */
+    color:green;
+    font-size:70px;
+} 
+
+
+#id-selector{           /*This is an id-selector */
+    color:goldenrod;
+    font-size:30px;
+} 
+
+*{                              /*This is a universal selector */
+    color:rgb(194, 47, 89);
+    font-size:70px;
+} 
+h1,h2,p{
+    color:blue;         /*This is group selector*/
+    font-size:90px;
+}

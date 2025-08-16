@@ -1,0 +1,28 @@
+.btn{
+    background-color:blue !important;
+    border-radius: 6px;
+    color:white;
+    /*padding:30px;*/
+
+}
+.btn:hover{
+     background-color:antiquewhite;
+     color:black;
+
+}
+
+.btn{
+    background-color:black;
+    border-radius: 6px;
+    color:white;
+    /*padding:30px;*/
+
+}
+
+.btn{
+    background-color:blueviolet;
+    border-radius: 6px;
+    color:white;
+    /*padding:30px;*/
+
+}
