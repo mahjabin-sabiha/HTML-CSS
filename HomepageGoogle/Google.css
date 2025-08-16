@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+section{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     min-height: 100vh;
+}
+section header{
+    position:absolute;
+    top:0;
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    margin-right:50px;
+}
+section header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section header ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+section header ul li a{
+    text-decoration:none;
+    font-size:20px;
+
+}
+
+section header ul li a:hover{
+    text-decoration:underline;
+    font-size: 20px;
+
+}
+
+section header ul  button{
+    background-color:white;
+    border: black solid ;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+
+}
+
+section header ul  button:hover{
+    background-color:red;
+    border: black solid ;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+
+}
+section .main{
+    width:700px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .main .searchbox {
+  position:relative;
+  width: 70%;
+  height:70px;
+  margin-top: 20px;
+}
+section .main .searchbox .search{
+    width:100%;
+    background-color:white;
+    border:1px black solid; 
+    border-radius:30px ;
+    font-size:15px;
+    outline:none;
+    padding:10px;
+    padding-left:50px;
+    
+}
+
+
+section .main .searchbox .icons {
+  top: 0;
+ position:absolute;
+  width: 100%;
+  display: flex;
+  padding-left: 12px;
+  padding-top:10px;
+  padding-right:1000px;
+  justify-content: space-between;
+ 
+}
+section .main .lang{
+    margin-top:20px;
+}
