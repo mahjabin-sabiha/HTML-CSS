@@ -1,0 +1,39 @@
+img{
+    width:300px;
+    height:auto;
+   /* filter:brightness(100%);*/
+   /* filter:blur(100px);*/
+    /*filter:invert(20);*/
+    filter:contrast(10%);
+}
+p{
+    width:300px;
+    height:300px;
+    letter-spacing:normal;
+    word-spacing:normal;
+    
+}
+
+p1{
+    position:fixed;
+    color:red;
+    left:1000px;
+    right:100px;
+    top:100px;
+    
+}
+div.a{
+    width:100px;
+    border:red solid;
+    word-wrap:normal;
+}
+div.b{
+    width:100px;
+    border:red solid;
+    word-wrap:break-word;
+}
+.test{
+    display:flex;
+    justify-content:space-between;
+}
+
