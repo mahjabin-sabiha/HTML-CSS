@@ -1,0 +1,29 @@
+/*
+body{
+    background-color:aquamarine;
+    background-image: url("bi.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset;
+    background-blend-mode: hue;
+
+}
+*/
+
+/*Border style*/
+/*
+h1{
+    border-style:ridge;
+    
+}
+    */
+
+.my-div{
+    height:200px;
+    width:200px;
+    background-color:red;
+    border-radius:40px 1px 40px 2px ;
+}    
+
