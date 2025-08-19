@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(250, 249, 249);
+}
+
+
+ .im{ 
+  width: 200px;      /* fixed width */
+  height: auto;      /* keeps aspect ratio */
+  max-width: 100%;
+  margin-top:60px;
+  margin-left:90px;
+    
+}
+.text p1{
+ font-size:xx-large;
+ font-family: Arial, Helvetica, sans-serif;
+ text-decoration-color: black;
+ margin-top:65px;
+ margin-left:104px;
+ align-items: flex-start;
+}
+.text p2{
+ font-size:small;
+ font-family: Arial, Helvetica, sans-serif;
+ text-decoration-color:white;
+ text-emphasis-color: white;
+ accent-color: white;
+ margin-top:65px;
+ margin-left:104px;
+ 
+
+}
+  .right {
+      width: 360px;
+      margin: 100px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      text-align: center;
+      margin-top:-250px;
+    }
+    .likho {
+      width: 90%;
+      padding: 14px;
+      margin: 10px 0;
+      border: 1px solid #dddfe2;
+      border-radius: 6px;
+      font-size: 16px;
+      outline: none;
+    }
+
+        .likho:focus {
+      border-color: #1877f2;
+      box-shadow: 0 0 0 2px #e7f3ff;
+    }
+     .bt1 {
+      width: 100%;
+      padding: 14px;
+      margin: 10px 0;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      color:white;
+      background-color:rgb(21, 21, 235);
+    }
+    .bt1:hover{
+        background-color:rgb(56, 56, 222);
+    }
+    .f{
+        color: #1877f2;         /* link color */
+    cursor: pointer;         /* pointer on hover */
+    display: inline-block;   /* make hover padding work if needed */
+    text-decoration: none;   /* no underline by default */
+    transition: color 0.3s, text-decoration 0.3s;
+        
+    }
+    .f:hover{
+         text-decoration: underline; /* underline on hover */
+         color: #0f5ac1;
+    }
+    .bt2{
+        width:60%;
+        padding:8px;
+        margin:8px 0;
+        background-color:rgb(22, 185, 22);
+        color:white;
+        font-size:16px;
+        font-weight:bold;
+        border:none;
+        border-radius:6px;
+        cursor:pointer;
+    }
+   .bt2:hover{
+        background-color:green;
+    }
+
+    .b1{
+      
+    display: flex;
+    gap: 20px; /* space between cards */
+    }
+
+
+
+     .card {
+    background-color: #fff;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-left:104px;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    margin-left:3px;
+  }
+
+  .card .name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #050505;
+    margin-left:104px;
+  }
+.tt{
+  margin-left:460px;
+   margin-top:-100px;
+   padding:30px;
+}
